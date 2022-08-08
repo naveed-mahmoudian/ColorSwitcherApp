@@ -1,0 +1,50 @@
+.header {
+    text-align: center;
+    font-size: 2.5em;
+    border-bottom: 2px solid black;
+}
+
+.main {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.container {
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 500px;
+}
+
+.color {
+    font-size: 3em;
+}
+
+.button {
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: transparent;
+    font-weight: 900;
+}
+
+.button:active {
+    border: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    border-top: 2px solid black;
+}
